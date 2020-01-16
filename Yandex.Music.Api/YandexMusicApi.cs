@@ -1030,15 +1030,11 @@ namespace Yandex.Music.Api
 
         var json = JToken.Parse(result);
         setLikedResponse = YDeleteTrackFromPlaylistResponse.FromJson(json);
-//        return YPlaylistChangeResponse.FromJson(json);
-        Console.WriteLine("123");
       }
       catch (WebException ex)
       {
         Console.WriteLine(ex);
       }
-
-//      var changeLikeResponse = ChangeLikedTrack(trackKey, value);
 
       return setLikedResponse;
     }
