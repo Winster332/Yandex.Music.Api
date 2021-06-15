@@ -5,6 +5,8 @@ Yandex.Music API (Unofficial) for .Net Core
 ![NuGet version (Yandex.Music.Api)](https://img.shields.io/nuget/v/Yandex.Music.Api.svg?style=flat-square)
 [![Documentation Status](https://readthedocs.org/projects/yandexmusicapi/badge/?version=latest)](https://yandexmusicapi.readthedocs.io/en/latest/?badge=latest)
 
+> The api is out of date does not match the current state
+
 This is wrapper for the [Yandex.Music](http://music.yandex.ru/) API
 
 Solution allows you to work with Yandex music based on the client.
